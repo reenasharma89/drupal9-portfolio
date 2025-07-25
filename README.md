@@ -29,6 +29,29 @@ Disabled global styling from parent theme for full control:
 libraries-override:
     olivero/global-styling: false
 
+Content Types
+Teacher
+Fields: Name, Subject, Profile Image
+Student
+Fields: Name, Teacher, Grade
+
+Taxonomy
+Subject vocabulary created
+Used as a referenced field in the Teacher content type
+
+Views
+View for listing Teachers by Department
+View for listing Students with related Teachers
+Views display blocks integrated into custom regions (e.g. sidebar)
+
+Custom Regions
+Defined in olivero_child.info.yml:
+regions:
+  header: 'Header'
+  content: 'Content'
+  sidebar: 'Sidebar'
+  footer: 'Footer'
+
 #### Screenshots
 <img width="1920" height="1140" alt="Screenshot 2025-07-25 150156" src="https://github.com/user-attachments/assets/5828ec5c-192d-421f-bae7-6993bf55c42c" />
 
