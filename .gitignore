@@ -1,0 +1,13 @@
+/vendor/
+node_modules/
+sites/default/files/
+sites/default/settings.php
+sites/default/settings.local.php
+sites/default/services.yml
+.env
+*.log
+*.sqlite
+*.gz
+.DS_Store
+.idea/
+*.swp

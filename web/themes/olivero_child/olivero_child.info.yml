@@ -1,0 +1,14 @@
+name: "Olivero Child"
+type: theme
+description: "A sub-theme of Olivero."
+core_version_requirement: ^9 || ^10
+base theme: olivero
+regions:
+  header: "Header"
+  content: "Content"
+  sidebar: "Sidebar"
+  footer: "Footer"
+libraries:
+  - olivero_child/global-styling
+libraries-override:
+  olivero/global-styling: false
